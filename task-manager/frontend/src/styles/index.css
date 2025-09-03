@@ -1,0 +1,16 @@
+*{box-sizing:border-box} body{margin:0;font-family:system-ui,Arial,sans-serif;background:#f7f7f7;color:#222}
+.container{max-width:900px;margin:0 auto;padding:16px}
+header{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px}
+button{cursor:pointer}
+.btn{padding:8px 12px;border:1px solid #222;background:#222;color:#fff;border-radius:6px}
+.btn.alt{background:#fff;color:#222}
+.input, select, textarea{width:100%;padding:8px;border:1px solid #ccc;border-radius:6px}
+.card{background:#fff;border:1px solid #eee;border-radius:8px;padding:12px;margin-bottom:10px}
+.badge{display:inline-block;padding:2px 8px;border-radius:999px;font-size:12px;border:1px solid #ddd}
+.badge.low{background:#e8f5e9}
+.badge.medium{background:#fff8e1}
+.badge.high{background:#ffebee}
+.row{display:flex;gap:8px;align-items:center}
+.list{max-height:400px;overflow:auto}
+.footer{margin-top:8px;display:flex;gap:8px}
+.empty{color:#666;font-style:italic;padding:16px;text-align:center}
